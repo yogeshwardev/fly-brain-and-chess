@@ -1,0 +1,10 @@
+{
+  "extends": "../neuroprison/tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "preserve",
+    "types": ["node"],
+    "baseUrl": "."
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts", "scripts/**/*.ts", "web/**/*.ts", "web/**/*.tsx"]
+}
